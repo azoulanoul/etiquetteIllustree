@@ -14,7 +14,7 @@ body{
 /* local font */
 @font-face {
     font-family: "Tangerine";
-    src: url("C:\Users\anael\Documents\fonts\TANGERINE\Tangerine.otf") format("truetype");
+    src: url("Tangerine.otf") format("truetype");
     font-style: normal;
     font-weight: 400;
     font-stretch: normal;
