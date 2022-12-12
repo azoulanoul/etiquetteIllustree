@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--css-->
+    <link rel="stylesheet" href="style.css">
+    <!--lottie-->
+    <script
+      src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <title>étiquette illustrée</title>
+  </head>
+  <body>
+    <div class="topsection">
+      <!--navbar-->
+      <nav>
+        <p class="textlogo">étiquette illustrée</p>
+        <img class="logonav" src="/logonavbar.svg" alt="">
+        <ul>
+          <li> <a href="">services</a></li>
+          <li> <a href="">a propos</a></li>
+          <li> <a href="#foot">contact</a></li>
+        </ul>
+      </nav>
+      <!--header-->
+      <header>
+        <div class="titre">
+          <h1>Ne laissez pas fermenter <br> votre image</h1>
+          <h2>Créez le packaging idéal pour <br>augmenter vos ventes et <br>fidéliser
+            votre clientèle.
+          </h2>
+        </div>
+        <div class="anim">
+          <lottie-player id="animheader" src="/animheader.json"
+            background="transparent" speed="1" style="width: 400px; height:
+            400px;" loop autoplay></lottie-player>
+        </div>
+      </header>
+      <!--logo icon-->
+      <div class="icon">
+        <img src="/ICON1.svg" alt="design">
+        <img src="/ICON2.svg" alt="beer">
+        <img src="/ICON3.svg" alt="money">
+      </div>
+      <hr>
+    </div>
+    <!--wide anim-->
+    <div class="secondsection">
+      <lottie-player id="dessinanime" src="/dessin_anime.json"
+        background="transparent" speed="1" style="width: auto; height: auto;"
+        loop autoplay></lottie-player>
+      <div class="textconcu">
+        <div class="cardleft">
+          <hr class="hrconcu">
+          <p class="textleft">
+            Se lancer dans la production de bière, c’est une aventure que chaque
+            brasseur vit différemment.
+            Vous exprimez votre savoir-faire du maltage au conditionnement pour
+            obtenir un gout unique. <br>
+            Ce gout, c’est votre identité et votre histoire.
+          </p>
+        </div>
+        <div class="cardleft">
+          <hr class="hrconcu">
+          <p class="textleft">
+            En France il y’a plus de 10 000 référence de bière.
+            Si vous ne travaillez pas votre image, vous risquez de disparaitre
+            dans les étales...
+            Mon objectif est de mettre en valeur cette identité et de créer un
+            visuel qui vous démarquera de la concurrence pour que vos efforts
+            soient récompensés !
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--slider-->
+    <div class="thirdsection">
+      <p class="histoireflo">L'histoire de Florian</p>
+      <div class="allcontainer">
+        <div class="btnParent">
+          <!-- Next and previous buttons -->
+          <a id="prev">
+            <img id="btn" src="/BTNLEFT.png" alt=""></a>
+          <a id="next">
+            <img id="btn" src="/BTNRIGHT.png" alt=""></a>
+        </div>
+
+        <div id="cardcontainer">
+          <div class="fakeCard"></div>
+          <!--1-->
+          <div class="cardAnim">
+            <lottie-player id="florian" src="/timeline_anim_1.json"
+              background="transparent" speed="1" style="width: 350px; height:
+              350px;" loop autoplay></lottie-player>
+            <p id="textcard">Florian est un brasseur breton.</p>
+          </div>
+          <!--2-->
+          <div class="cardAnim">
+            <lottie-player id="florian" src="/timeline_anim_2.json"
+              background="transparent" speed="1" style="width: 350px; height:
+              350px;" loop autoplay></lottie-player>
+            <p id="textcard">Il commence sa ligne dans son garage.</p>
+          </div>
+          <!--3-->
+          <div class="cardAnim">
+            <lottie-player id="florian" src="/timeline_anim_3.json"
+              background="transparent" speed="1" style="width: 350px; height:
+              350px;" loop autoplay></lottie-player>
+            <p id="textcard">Pas d’étiquette,une bouteille opaque,un fort degré
+              d’alcool..
+              Une vraie bière tradi!.
+            </p>
+          </div>
+          <!--4-->
+          <div class="cardAnim">
+            <lottie-player id="florian" src="/timeline_anim_4.json"
+              background="transparent" style="width: 350px; height: 350px;" loop
+              autoplay></lottie-player>
+            <p id="textcard">Il reçoit des proches pour des dégustations dans
+              son
+              garage et leurs retours sont unanimes :
+              « Il faut commercialiser cette pépite ! »
+            </p>
+          </div>
+          <div class="fakeCard"></div>
+          <div class="fakeCard"></div>
+          <div class="fakeCard"></div>
+          <div class="fakeCard"></div>
+
+        </div>
+      </div>
+      <div class="sliderclandestine">
+        <img id="slideclandestine" src="/beer1.webp" alt="">
+        <!-- <img id="slideclandestine" src="/beer3.webp" alt="">
+            <img id="slideclandestine" src="/beer4.webp" alt=""> 
+          </div>
+          
+          <!--services cards-->
+        <!--
+            <div class="containerService">
+           <div class="cardService">
+             <h3>logo</h3>
+             <p class="descriservice">Création de plusieurs itérations jusqu’au choix final.
+               Format vectoriel pour impression 
+               sur tout support.
+               Prévisualisation sur supports dédiés.
+               </p>
+               <p class="pricing">
+                 à partir de 250euros
+               </p>
+           </div>
+           <div class="cardService2">
+             <h3>illustration</h3>
+             <p class="descriservice"> Réalisation d’une illustration dédiée à votre bière.
+               Comprend la mise en page et l’intégration de vos recettes, logo et mentions légales.
+               </p>
+               <p class="pricing">
+                 à partir de 500euros
+               </p>
+               
+           </div>
+           <div class="cardService">
+             <h3>animation</h3>
+             <p class="descriservice">Animation de logo,
+               créations d’icones animées pour votre site.
+               Réalisation d’animations publicitaires pour vos réseaux.
+               </p>
+               <p class="pricing">
+                 à partir de 250euros
+               </p>
+         </div>
+         -->
+        <script src="/script.js"></script>
+      </body>
+    </html>
