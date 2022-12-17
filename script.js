@@ -1,25 +1,17 @@
-var arrowLeft=document.getElementById("prev")
-var arrowRight=document.getElementById("next")
-var position=1
-var pxmt=650
-arrowLeft.addEventListener("click", function(){
-    position--
-    if (position<1)
-    {
-        position=1
-        return
-    }
-    cardcontainer.scrollLeft -=(pxmt)
-})
-arrowRight.addEventListener("click", function(){
-    position++
-    if (position>4)
-    {
-        position=4
-        return
-    }
-    cardcontainer.scrollLeft +=(pxmt)
- 
-})
-var cardcontainer=document.getElementById("cardcontainer")
 
+
+// slider 3 images
+
+const slide = ["beer3.png", "beer4.png", "beer2.png"]
+let numero = 0
+
+
+function ChangeSlide(sens){
+    numero = numero + sens;
+    if (numero < 0 )
+    numero = slide.length - 1;
+    if (numero > slide.length -1)
+    numero = 0
+    
+    document.getElementById("sliding").src = slide[numero]
+}
