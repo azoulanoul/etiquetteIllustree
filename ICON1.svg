@@ -1,0 +1,125 @@
+<svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" width="285.98" height="309.89" viewBox="0 0 285.98 309.89">
+  <defs>
+    <style>
+      .cls-1, .cls-8, .cls-9 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #f15a24;
+        stroke-width: 3px;
+      }
+
+      .cls-1, .cls-10, .cls-8, .cls-9 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #f15a24;
+      }
+
+      .cls-3 {
+        fill: #efbe3f;
+      }
+
+      .cls-4 {
+        fill: #6fc350;
+      }
+
+      .cls-5 {
+        fill: #ff8000;
+      }
+
+      .cls-6 {
+        fill: #ffb300;
+      }
+
+      .cls-7 {
+        fill: #ffde92;
+      }
+
+      .cls-10, .cls-8, .cls-9 {
+        stroke: #000;
+      }
+
+      .cls-8 {
+        stroke-width: 0.25px;
+      }
+
+      .cls-10, .cls-9 {
+        stroke-width: 0.5px;
+      }
+
+      .cls-11 {
+        font-size: 12px;
+        font-family: TangerineRegular, Tangerine;
+      }
+
+      .cls-12 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-13 {
+        letter-spacing: 0em;
+      }
+
+      .cls-14 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-15 {
+        letter-spacing: 0em;
+      }
+
+      .cls-16 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-17 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-18 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-19 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-20 {
+        letter-spacing: -0.01em;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="1.5" y="1.5" width="265.53" height="306.89" rx="26.3"/>
+  <circle class="cls-2" cx="20.43" cy="16.34" r="5.84"/>
+  <circle class="cls-3" cx="34.4" cy="16.34" r="5.84"/>
+  <circle class="cls-4" cx="48.96" cy="16.34" r="5.84"/>
+  <path class="cls-5" d="M270.45,234.83c.19,13.21-21.64,46-29.08,53.88-8,8.5-18.75,15.46-29.14,7s-21.06,3.45-23.13,14.17c-2.15,11.17-5.77,21.73-19.48,4s-15.82-20.92-20.19-30c-3.91-8.11-6.62-15.32-6.68-30.92s12.33-66.5,42.1-59.65c16.66,3.83,17,14.17,22.6,24.89,6.75,13,8.81,17.62,18.57,18.38C250.46,238.47,270.29,223.67,270.45,234.83Z" transform="translate(-117.41 -102.61)"/>
+  <path class="cls-6" d="M319.85,255.89c-2.3-12.25,37.09,41.51,40.83,51.71,4,10.95,5.4,23.69-6.82,29.18s-6.38,20.37,2.27,27c9,6.94,16,23.38-6,27.66s-39.28,3-49,.38c-10-2.68-20.69-5.36-32.94-14.55-12.48-9.36-41.7-41.58-22.21-65.11,10.9-13.16,18-9.57,29.87-7.66,14.49,2.34,28.63-2,33.7-10.34C322.2,273.21,321.91,266.86,319.85,255.89Z" transform="translate(-117.41 -102.61)"/>
+  <g id="VECTOR">
+    <path class="cls-7" d="M254.68,189.89c8.88,3.68,14.49,9.45,26.36,4.85s18.9-9.44,24.39-20.93c3.26-6.84,21.57-21.58,30.76-16.6S351,173.74,351,184.28c0,11.74.13,21.57-11.74,31.15s-21.67,2.35-31.15,16.85c-6.77,10.34-.51,12.25-.39,29.61.14,18.21-29.49,49.41-36.76,19.92s19.68-43.93,6.6-57.35c-7.18-7.37-15-2.78-33.79,1s-39.55-10.15-23.08-26.62S243.57,185.3,254.68,189.89Z" transform="translate(-117.41 -102.61)"/>
+    <path class="cls-8" d="M254.43,189.66c8.87,3.67,14.48,9.45,26.36,4.85s18.89-9.45,24.38-20.94c3.27-6.84,21.57-21.57,30.77-16.59s14.8,16.53,14.8,27.06c0,11.75.13,21.58-11.74,31.15s-21.67,2.36-31.15,16.85c-6.76,10.34-.51,12.26-.38,29.62.13,18.21-29.49,49.4-36.77,19.91s19.68-43.93,6.61-57.35c-7.18-7.37-15-2.77-33.8,1.06S204,215.13,220.44,198.66,243.32,185.06,254.43,189.66Z" transform="translate(-117.41 -102.61)"/>
+    <rect x="216.22" y="52.18" width="2.87" height="2.87"/>
+    <rect x="230.2" y="96.41" width="3.06" height="3.06"/>
+    <rect x="181.18" y="77.46" width="3.26" height="3.26"/>
+    <rect x="145.76" y="89.9" width="3.26" height="3.26"/>
+    <rect x="96.73" y="99.86" width="3.26" height="3.26"/>
+    <rect x="137.52" y="117.67" width="3.26" height="3.26"/>
+    <rect x="190.56" y="125.33" width="3.26" height="3.26"/>
+    <rect x="181.95" y="175.12" width="3.26" height="3.26"/>
+    <rect x="150.16" y="164.97" width="3.26" height="3.26"/>
+    <line class="cls-9" x1="200.52" y1="43.85" x2="234.35" y2="61.88"/>
+    <circle cx="234.61" cy="62.14" r="1.58"/>
+    <circle cx="200.47" cy="43.8" r="1.58"/>
+    <line class="cls-10" x1="237.28" y1="80.44" x2="226.3" y2="117.17"/>
+    <circle cx="226.1" cy="117.47" r="1.58"/>
+    <circle cx="237.32" cy="80.39" r="1.58"/>
+    <line class="cls-9" x1="192.16" y1="62.62" x2="173.69" y2="96.22"/>
+    <circle cx="173.43" cy="96.47" r="1.58"/>
+    <circle cx="192.2" cy="62.58" r="1.58"/>
+  </g>
+  <polygon points="285.98 120.12 275.32 125.07 263.89 104.96 253.63 110.22 253.24 81.67 283.31 95 270.95 101.34 285.98 120.12"/>
+  <text class="cls-11" transform="translate(17.46 40.34)">Lo<tspan class="cls-12" x="13.51" y="0">r</tspan><tspan class="cls-13" x="18.36" y="0">em ipsum dolor s</tspan><tspan class="cls-14" x="118.59" y="0">i</tspan><tspan class="cls-15" x="121.39" y="0">t am</tspan><tspan class="cls-16" x="148.82" y="0">e</tspan><tspan x="155.53" y="0">t, </tspan><tspan x="0" y="14.4">conse</tspan><tspan class="cls-12" x="33.34" y="14.4">c</tspan><tspan class="cls-17" x="39.88" y="14.4">t</tspan><tspan class="cls-18" x="44.56" y="14.4">e</tspan><tspan x="51.26" y="14.4">tuer </tspan><tspan class="cls-19" x="79.03" y="14.4">a</tspan><tspan x="86.22" y="14.4">dipiscing el</tspan><tspan class="cls-14" x="150.4" y="14.4">i</tspan><tspan x="153.2" y="14.4">t, </tspan><tspan x="0" y="28.8">sed diam nonum</tspan><tspan class="cls-20" x="97.23" y="28.8">m</tspan><tspan x="108.27" y="28.8">y nibh </tspan></text>
+</svg>
