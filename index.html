@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,7 @@
             src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
         <link rel="stylesheet" href="style.css">
     </head>
+
     <body>
         <!-- navbar navbar navbar -->
         <nav>
@@ -22,7 +24,7 @@
                 <ul>
                     <li><a id="navlink" href="#linkservice">services</a></li>
                     <li><a id="navlink" href="">à propos</a></li>
-                    <li><a id="navlink" href="#top">contact</a></li>
+                    <li><a id="navlink" href="#contactcontainer">contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -46,8 +48,7 @@
         <hr>
 
         <!-- wide anim wide anim wide anim -->
-        <lottie-player id="wideanim" src="/dessin_anime.json" loop
-            autoplay></lottie-player>
+        <lottie-player id="wideanim" src="/dessin_anime.json" loop autoplay></lottie-player>
         <!-- quotation quotation quotation -->
         <div id="containerquotation">
             <div id="containerleft">
@@ -119,7 +120,8 @@
                     bière. <br><br>
                     Comprend la mise en page et l’intégration de vos recettes,
                     <br>
-                    logo et mentions légales.</p>
+                    logo et mentions légales.
+                </p>
                 <p id="price">
                     à partir de 500€ </p>
 
@@ -137,24 +139,61 @@
         <div id="btnprojet">
             <a id="projetbtn" href="">Demander une estimation</a>
         </div>
+
+        <!-- contact contact contact contact -->
         <div id="contactcontainer">
             <div id="top">
                 <lottie-player id="contactanim" src="/anim_form_contact.json"
-                    loop
-                    autoplay></lottie-player>
+                    loop autoplay></lottie-player>
 
 
             </div>
             <div id="bottom">
                 <p id="contacttitle">Contact</p>
             </div>
+            <div id="form">
+                <div id="formleft">
+                    <div id="input"></div>
+                    <div id="input"></div>
+                    <div id="input"></div>
+                    <div id="input"></div>
+                </div>
+                <div id="message"></div>
+            </div>
+            <hr id="endform">
+
 
         </div>
+        <!-- form formform form form  -->
+
+
+
+        <!-- footer footer footerfooterfooter -->
         <footer>
+            <div id="cookie">
+                <img id="footerlogo" src="/logonavbar.svg" alt="">
+                <div id="linkfooter">
+                    <a href="">POLITIQUE DE CONFIDENTIALITÉ & COOKIES
+                    </a>
+                    <a href="">MENTIONS LÉGALES </a>
+                    <a href="">CGV</a>
+                </div>
+            </div>
+            <div id="moncontact">
+                <a href="">contact@étiquette-illustrée.fr</a>
+                <a href="">06.21.55.77.59</a>
+                <a href="">© 2022 — ETIQUETTE ILLUSTREE™</a>
+            </div>
+            <div id="logosocial">
+                <img src="/facebook.png" alt="" id="facebook">
+                <img src="/LINKEDIN.png" alt="" id="facebook">
+                <img src="/instagram.png" alt="" id="facebook">
+            </div>
 
         </footer>
 
 
         <script src="/script.js"></script>
     </body>
+
 </html>
