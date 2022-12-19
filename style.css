@@ -37,7 +37,8 @@ nav {
 }
 
 #logonav {
-    width: 30%;
+    width: 20%;
+    height: 100%;
     margin-left: 10px;
 }
 
@@ -121,6 +122,11 @@ li {
 }
 
 @media screen and (max-width: 1743px) {
+    #logonav {
+        width: 20%;
+        height: 100%;
+        margin-left: 10px;
+    }
 
     #rightside {
 
@@ -171,6 +177,10 @@ li {
 }
 
 @media screen and (max-width: 1559px) {
+    #logonav {
+        width: 20%;
+        margin-left: 10px;
+    }
 
     #rightside {
         display: flex;
@@ -218,6 +228,10 @@ li {
 }
 
 @media screen and (max-width: 1439px) {
+    #logonav {
+        width: 20%;
+        margin-left: 10px;
+    }
 
     #rightside {
         display: flex;
@@ -266,7 +280,8 @@ li {
 
 @media screen and (max-width: 1301px) {
     #logonav {
-        height: 100px;
+        width: 10%;
+
         margin-left: 10px;
     }
 
