@@ -1,9 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
 }
+
 /* local font */
 @font-face {
     font-family: "Tangerine";
@@ -11,7 +12,8 @@
     font-style: normal;
     font-weight: 400;
     font-stretch: normal;
- }
+}
+
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;500&display=swap');
 
@@ -19,37 +21,41 @@
 
 /* nav nav */
 
-nav{
-        width: 100%;
-    height: 120px;
+nav {
+    width: 100%;
+    height: 10vh;
     display: flex;
     top: 0;
     left: 0;
     justify-content: space-between;
-    background-color:#FFDE92;
+    background-color: #FFDE92;
     align-items: center;
-     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-     position: fixed;
-     z-index: 9999;
-    
-    }
-#logonav{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    position: fixed;
+    z-index: 9999;
+
+}
+
+#logonav {
     width: 30%;
     margin-left: 10px;
 }
-#logotext{
+
+#logotext {
     font-size: 40px;
     white-space: nowrap;
     font-family: 'Tangerine';
     color: #FF8000;
     text-decoration: none;
 }
-#logotext:hover{
+
+#logotext:hover {
     color: #ffffff;
     transform: scale(98%);
 }
-#leftside{
-    
+
+#leftside {
+
     display: flex;
     align-items: center;
     margin-top: 2%;
@@ -57,52 +63,55 @@ nav{
     margin-right: 20%;
     margin-left: 10%;
 }
-#rightside{
-   
+
+#rightside {
+
     display: flex;
     align-items: center;
     width: 100%;
     margin-top: 2%;
-  margin-bottom: 2%;
-    
-   
-    
+    margin-bottom: 2%;
+
+
+
 }
-ul{
-    
-    
+
+ul {
+
+
     display: flex;
     white-space: nowrap;
-    
-  
+
+
     height: 120px;
     align-items: center;
     margin-right: 10%;
- 
-    
-   
-  
+
+
+
+
 }
 
-li{
-   
-   
-    padding:40%;
+li {
+
+
+    padding: 40%;
     margin-right: 10%;
 }
 
-#navlink{
+#navlink {
     display: flex;
-   justify-content: space-evenly;
-   
- font-family: 'Outfit', sans-serif;
- text-decoration: none;
- color: #F5800D;
- font-size: 24px;
- 
+    justify-content: space-evenly;
+
+    font-family: 'Outfit', sans-serif;
+    text-decoration: none;
+    color: #F5800D;
+    font-size: 24px;
+
 
 }
-#navlink:hover{
+
+#navlink:hover {
     background-color: #FF8000;
     border-radius: 10px;
     width: 120%;
@@ -110,155 +119,163 @@ li{
     transition: ease-in-out 0.1s;
     color: white;
 }
-@media screen and (max-width: 1743px){
 
-    #rightside{
-        
+@media screen and (max-width: 1743px) {
+
+    #rightside {
+
         display: flex;
         align-items: center;
         width: 100%;
         margin-top: 2%;
-      margin-bottom: 2%;
-        
-       
-        
+        margin-bottom: 2%;
+
+
+
     }
-    ul{
-        
-        
+
+    ul {
+
+
         display: flex;
         white-space: nowrap;
-     
-      
+
+
         height: 120px;
         align-items: center;
         margin-right: 10%;
-     
-        
-       
-      
+
+
+
+
     }
-    
-    li{
-       
-       
-        padding:40%;
+
+    li {
+
+
+        padding: 40%;
         margin-right: 10%;
     }
-    
-    #navlink{
-        display: flex;
-       justify-content: space-evenly;
-     
-     font-family: 'Outfit', sans-serif;
-     text-decoration: none;
-     font-size: 20px;
-     
-    
-    }
-    
-}
-@media screen and (max-width: 1559px){
 
-    #rightside{
+    #navlink {
+        display: flex;
+        justify-content: space-evenly;
+
+        font-family: 'Outfit', sans-serif;
+        text-decoration: none;
+        font-size: 20px;
+
+
+    }
+
+}
+
+@media screen and (max-width: 1559px) {
+
+    #rightside {
         display: flex;
         align-items: center;
         width: 100%;
         margin-top: 2%;
-      margin-bottom: 2%;
-        
-       
-        
+        margin-bottom: 2%;
+
+
+
     }
-    ul{
-        
-        
+
+    ul {
+
+
         display: flex;
         white-space: nowrap;
-      
+
         height: 120px;
         align-items: center;
         margin-right: 10%;
-     
-        
-       
-      
+
+
+
+
     }
-    
-    li{
-       
-       
-        padding:40%;
+
+    li {
+
+
+        padding: 40%;
         margin-right: 10%;
     }
-    
-    #navlink{
+
+    #navlink {
         display: flex;
-       justify-content: space-evenly;
-     font-family: 'Outfit', sans-serif;
-     text-decoration: none;
-     font-size: 18px;
-     
-    
+        justify-content: space-evenly;
+        font-family: 'Outfit', sans-serif;
+        text-decoration: none;
+        font-size: 18px;
+
+
     }
-    
+
 }
 
-@media screen and (max-width: 1439px){
+@media screen and (max-width: 1439px) {
 
-    #rightside{
+    #rightside {
         display: flex;
         align-items: center;
         width: 100%;
         margin-top: 2%;
-      margin-bottom: 2%;
-        
-       
-        
+        margin-bottom: 2%;
+
+
+
     }
-    ul{
-        
-        
+
+    ul {
+
+
         display: flex;
         white-space: nowrap;
-      
+
         height: 120px;
         align-items: center;
         margin-right: 10%;
-     
-        
-       
-      
+
+
+
+
     }
-    
-    li{
-       
-       
-        padding:30%;
+
+    li {
+
+
+        padding: 30%;
         margin-right: 10%;
     }
-    
-    #navlink{
+
+    #navlink {
         display: flex;
-       justify-content: space-evenly;
-     font-family: 'Outfit', sans-serif;
-     text-decoration: none;
-     font-size: 18px;
-     
-    
+        justify-content: space-evenly;
+        font-family: 'Outfit', sans-serif;
+        text-decoration: none;
+        font-size: 18px;
+
+
     }
-    
+
 }
-@media screen and (max-width: 1301px){
-    #logonav{
+
+@media screen and (max-width: 1301px) {
+    #logonav {
         height: 100px;
         margin-left: 10px;
     }
-    p{
+
+    p {
         font-size: 40px;
-        
+
     }
-    #leftside{
+
+    #leftside {
         display: flex;
         align-items: center;
         margin-top: 2%;
@@ -267,33 +284,37 @@ li{
         margin-left: auto;
     }
 
-    #rightside{
+    #rightside {
         display: none;
-        
-       
-        
+
+
+
     }
-      }
-    /* header header header */
-    
+}
+
+/* header header header */
+
 /* fonts fonts fonts */
-h1{
-    font-family: 'Outfit', sans-serif; 
+h1 {
+    font-family: 'Outfit', sans-serif;
     font-weight: 600;
     color: black;
     font-size: calc(15px + 3.3vw);
-   
+
 }
- h2{
-    font-family: 'Outfit', sans-serif; 
+
+h2 {
+    font-family: 'Outfit', sans-serif;
     font-weight: 200;
     font-size: calc(5px + 3.3vw);
     margin-top: 5%;
 }
-h1,h2{
+
+h1, h2 {
     margin-right: 5%;
 }
-#headercontainer{
+
+#headercontainer {
     display: flex;
     height: 60vh;
     width: 90vw;
@@ -304,118 +325,131 @@ h1,h2{
     overflow: hidden;
 
 }
-#leftcontainer{
-   
+
+#leftcontainer {
+
     width: 60%;
     margin-top: 6%;
 
 }
-#rightcontainer{
-   
+
+#rightcontainer {
+
     width: 40%;
- 
-  
+
+
 }
 
-lottie-player{
+lottie-player {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    background:transparent; 
+    background: transparent;
     width: 100%;
-     height:100%;
-   
-                 
+    height: 100%;
+
+
 }
-#iconheader{
+
+#iconheader {
     display: flex;
     justify-content: space-between;
     width: 90vw;
-   height: 20vh;
+    height: 20vh;
     margin-left: auto;
     margin-right: auto;
 }
-#icon{
+
+#icon {
     padding: 1%;
 }
-hr{
+
+hr {
     background-color: #FF8000;
-   border-color: transparent;
-   width: 90vw;
-   margin-left: auto;
-   margin-right: auto;
- 
+    border-color: transparent;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 /* wide anim wide anim wide anim  */
-#wideanim{
+#wideanim {
     margin-top: 10%;
 }
 
-/* quotation quotation quotation */
+
 
 
 
 /* quotation quotation quotation  */
 
-#containerquotation{
+#containerquotation {
     width: 90vw;
-    
-    height: 30vh;
+
+
     margin-top: 5%;
-  
+
     margin-left: auto;
     margin-right: auto;
     display: flex;
     justify-content: space-evenly;
 }
-#containerleft{
-   
+
+#containerleft {
+
     height: 100%;
     width: 40%;
     display: flex;
 
 }
-#containerright{
+
+#containerright {
 
     height: 100%;
     width: 40%;
     display: flex;
 }
-#vlhr{
-    height:         70%;
-    width:          3px;
+
+#vlhr {
+    height: 70%;
+    width: 3px;
     background-color: #FF8000;
-   border-color: transparent;  
- 
+    border-color: transparent;
+
 }
+
 @media screen and (max-width:1520px) {
-    #vlhr{
+    #vlhr {
         height: 90%;
     }
-    
+
 }
-#quote{
-    font-family: 'Outfit', sans-serif; 
+
+#quote {
+    font-family: 'Outfit', sans-serif;
     font-weight: 300;
     font-size: calc(15px + 0.5vw);
-    margin-left:2% ;
+    margin-left: 2%;
 }
+
+/* slider histoire de flo */
 
 
 /* slider 3 images slider 3 images slider 3 images slider 3 images */
-.slidercontainer{
+.slidercontainer {
     width: 80vw;
     height: auto;
     margin-top: 8%;
-   
+
     margin-left: auto;
     margin-right: auto;
-   
+
     position: relative;
     display: flex;
 }
-.button{
+
+.button {
     position: absolute;
     display: flex;
     width: 90%;
@@ -430,41 +464,46 @@ hr{
     bottom: 0;
     margin: auto;
 }
-.btnimg{
+
+.btnimg {
     width: 100%;
 }
-.btnimg:hover{
+
+.btnimg:hover {
     transform: scale(110%);
 }
-.red{
+
+.red {
     width: 10%;
     height: 10%;
-   
-   
 
-   
+
+
+
 }
-.green{
+
+.green {
     width: 10%;
     height: 10%;
- 
-  
+
+
 
 }
-.imgset{
+
+.imgset {
     top: 0;
-left: 0;
-right: 0;
-bottom: 0;
-margin: auto;
-width: 80%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 80%;
 
 }
 
 
 /* button button button  */
 
-#btnprojet{
+#btnprojet {
     width: 30vw;
     height: 9vh;
     background-color: #FF7D00;
@@ -474,65 +513,72 @@ width: 80%;
     display: flex;
     align-items: center;
 }
-#projetbtn{
+
+#projetbtn {
     margin-left: auto;
     margin-right: auto;
-   
-    font-family: 'Outfit', sans-serif; 
+
+    font-family: 'Outfit', sans-serif;
     font-weight: 500;
-    font-size: calc(25px + 0.5vw);
+    font-size: calc(15px + 0.5vw);
     text-decoration: none;
     color: white;
-   
+
 }
-#projetbtn:hover{
+
+#projetbtn:hover {
     scale: 102%;
 }
+
 /* services cards services cards services cards */
 
 
 
 
-.container{
+.container {
     display: flex;
     justify-content: center;
     width: 90vw;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
+    padding-top: 5%;
 }
-.card0{
+
+.card0 {
     background: #FACF87;
     width: 30%;
     align-items: center;
-  
+
     margin: 2%;
     border-radius: 4.5vw;
     display: flex;
     flex-direction: column;
     position: relative;
-   
+
 }
-.card0:hover,.card1:hover{
+
+.card0:hover, .card1:hover {
     scale: 102%;
     color: white;
     background-color: #F5800D;
     transition: ease-in-out 0.2s;
 }
-.card1{
+
+.card1 {
     background: #FFF2D2;
     width: 30%;
     align-items: center;
-  
+
     margin: 2%;
     border-radius: 4.5vw;
     display: flex;
     flex-direction: column;
     position: relative;
-  
+
 }
 
-h3{
+h3 {
     font-family: "Tangerine";
     font-weight: 300;
     text-align: center;
@@ -540,24 +586,67 @@ h3{
     padding-left: 6%;
     padding-right: 6%;
     margin-top: 10%;
-  
+
 }
-#services{
-    font-family: "outfit" ;
+
+#services {
+    font-family: "outfit";
     font-size: 1.5vw;
-    
-padding: 6%;
-    
-    
+
+    padding: 6%;
+
+
 }
-#price{
-    font-family: 'Outfit', sans-serif; 
-   bottom: 2%;
-   position: absolute;
-   font-weight: 600;  
-   font-size: 1.5vw; 
+
+#price {
+    font-family: 'Outfit', sans-serif;
+    bottom: 2%;
+    position: absolute;
+    font-weight: 600;
+    font-size: 1.5vw;
     margin-top: 10%;
-    
-    
+
+
+
+}
+
+
+/* timeline */
+/* contact */
+#contactcontainer {
+    margin-top: 10%;
+    width: 100vw;
+    height: 60vh;
+    /* background-color: #FACF87; */
+}
+
+#top {
+    display: flex;
+    /* border: solid red; */
+}
+
+#contactanim {
+    width: 50vh;
+    /* border: solid; */
+}
+
+#contacttitle {
+    font-family: "Tangerine";
+    font-weight: 300;
+    color: #F6721D;
+    /* border: solid; */
+    text-align: center;
+    font-size: calc(15px + 3.3vw);
+
+
+
+}
+
+/* footer */
+footer {
+    width: 100%;
+    height: 20vh;
+    background-color: #FF7D00;
+    bottom: 0;
 
 }
