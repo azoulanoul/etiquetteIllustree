@@ -612,11 +612,55 @@ h3 {
 
 
 /* timeline */
+/* form */
+
+#form {
+    width: 100%;
+    background-color: #FFDE92;
+    /* border: solid red; */
+    display: flex;
+
+    height: 30vh;
+
+
+}
+
+#formleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 10%;
+
+}
+
+#message {
+    width: 40vw;
+    height: 80%;
+    align-self: center;
+    border-radius: 5vh;
+
+    margin-left: 10%;
+    background-color: white;
+    /* border: solid red; */
+}
+
+#input {
+    width: 30vw;
+    height: 4vh;
+    border-radius: 2em;
+    background-color: white;
+}
+
+#endform {
+    width: 100%;
+}
+
 /* contact */
 #contactcontainer {
     margin-top: 10%;
-    width: 100vw;
-    height: 60vh;
+    width: 100%;
+
+    /* border: solid red; */
     /* background-color: #FACF87; */
 }
 
@@ -645,8 +689,77 @@ h3 {
 /* footer */
 footer {
     width: 100%;
-    height: 20vh;
-    background-color: #FF7D00;
+    height: 15vh;
+    background-color: #FFDE92;
     bottom: 0;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+#facebook {
+    height: 60%;
+    aspect-ratio: 1/1;
+
+}
+
+#cookie {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+#logosocial {
+    width: 30vw;
+    height: auto;
+    /* border: solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#moncontact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30vw;
+    height: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    /* border: solid red; */
+
+}
+
+#moncontact a {
+    text-decoration: none;
+    font-family: 'Outfit', sans-serif, medium;
+    font-weight: 500;
+    padding: 1%;
+
+    font-size: 1vw;
+    color: black;
+
+}
+
+#footerlogo {
+    height: 40%;
+    margin-left: 10%;
+}
+
+#linkfooter {
+    margin-left: 10%;
+    white-space: nowrap;
+}
+
+#linkfooter a {
+    font-family: 'Outfit', sans-serif, medium;
+    font-size: 0.8vw;
+    padding-left: 1%;
+    text-decoration: none;
+    color: black;
 
 }
