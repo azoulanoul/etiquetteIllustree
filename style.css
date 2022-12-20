@@ -1,861 +1,276 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-}
-
-/* local font */
-@font-face {
-    font-family: "Tangerine";
-    src: url(/TangerineRegular.woff) format("truetype");
-    font-style: normal;
-    font-weight: 400;
-    font-stretch: normal;
-}
-
-
-/* font */
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;500&display=swap');
-
-
-
-/* nav nav */
-
-nav {
-    width: 100%;
-    height: 10vh;
-    display: flex;
-    top: 0;
-    left: 0;
-    justify-content: space-between;
-    background-color: #FFDE92;
-    align-items: center;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
-    position: fixed;
-    z-index: 9999;
-
-}
-
-#logonav {
-    width: 20%;
-    height: 100%;
-    margin-left: 10px;
-}
-
-#logotext {
-    font-size: 40px;
-    white-space: nowrap;
-    font-family: 'Tangerine';
-    color: #FF8000;
-    text-decoration: none;
-}
-
-#logotext:hover {
-    color: #ffffff;
-    transform: scale(98%);
-}
-
-#leftside {
-
-    display: flex;
-    align-items: center;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin-right: 20%;
-    margin-left: 10%;
-}
-
-#rightside {
-
-    display: flex;
-    align-items: center;
-    width: 100%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-
-
-
-}
-
-ul {
-
-
-    display: flex;
-    white-space: nowrap;
-
-
-    height: 120px;
-    align-items: center;
-    margin-right: 10%;
-
-
-
-
-}
-
-li {
-
-
-    padding: 40%;
-    margin-right: 10%;
-}
-
-#navlink {
-    display: flex;
-    justify-content: space-evenly;
-
-    font-family: 'Outfit', sans-serif;
-    text-decoration: none;
-    color: #F5800D;
-    font-size: 24px;
-
-
-}
-
-#navlink:hover {
-    background-color: #FF8000;
-    border-radius: 10px;
-    width: 120%;
-    padding: 10%;
-    transition: ease-in-out 0.1s;
-    color: white;
-}
-
-@media screen and (max-width: 1743px) {
-    #logonav {
-        width: 20%;
-        height: 100%;
-        margin-left: 10px;
-    }
-
-    #rightside {
-
-        display: flex;
-        align-items: center;
-        width: 100%;
-        margin-top: 2%;
-        margin-bottom: 2%;
-
-
-
-    }
-
-    ul {
-
-
-        display: flex;
-        white-space: nowrap;
-
-
-        height: 120px;
-        align-items: center;
-        margin-right: 10%;
-
-
-
-
-    }
-
-    li {
-
-
-        padding: 40%;
-        margin-right: 10%;
-    }
-
-    #navlink {
-        display: flex;
-        justify-content: space-evenly;
-
-        font-family: 'Outfit', sans-serif;
-        text-decoration: none;
-        font-size: 20px;
-
-
-    }
-
-}
-
-@media screen and (max-width: 1559px) {
-    #logonav {
-        width: 20%;
-        margin-left: 10px;
-    }
-
-    #rightside {
-        display: flex;
-        align-items: center;
-        width: 100%;
-        margin-top: 2%;
-        margin-bottom: 2%;
-
-
-
-    }
-
-    ul {
-
-
-        display: flex;
-        white-space: nowrap;
-
-        height: 120px;
-        align-items: center;
-        margin-right: 10%;
-
-
-
-
-    }
-
-    li {
-
-
-        padding: 40%;
-        margin-right: 10%;
-    }
-
-    #navlink {
-        display: flex;
-        justify-content: space-evenly;
-        font-family: 'Outfit', sans-serif;
-        text-decoration: none;
-        font-size: 18px;
-
-
-    }
-
-}
-
-@media screen and (max-width: 1439px) {
-    #logonav {
-        width: 20%;
-        margin-left: 10px;
-    }
-
-    #rightside {
-        display: flex;
-        align-items: center;
-        width: 100%;
-        margin-top: 2%;
-        margin-bottom: 2%;
-
-
-
-    }
-
-    ul {
-
-
-        display: flex;
-        white-space: nowrap;
-
-        height: 120px;
-        align-items: center;
-        margin-right: 10%;
-
-
-
-
-    }
-
-    li {
-
-
-        padding: 30%;
-        margin-right: 10%;
-    }
-
-    #navlink {
-        display: flex;
-        justify-content: space-evenly;
-        font-family: 'Outfit', sans-serif;
-        text-decoration: none;
-        font-size: 18px;
-
-
-    }
-
-}
-
-@media screen and (max-width: 1301px) {
-    #logonav {
-        width: 10%;
-
-        margin-left: 10px;
-    }
-
-    p {
-        font-size: 40px;
-
-    }
-
-    #leftside {
-        display: flex;
-        align-items: center;
-        margin-top: 2%;
-        margin-bottom: 2%;
-        margin-right: auto;
-        margin-left: auto;
-    }
-
-    #rightside {
-        display: none;
-
-
-
-    }
-}
-
-/* header header header */
-
-/* fonts fonts fonts */
-h1 {
-    font-family: 'Outfit', sans-serif;
-    font-weight: 600;
-    color: black;
-    font-size: calc(15px + 3.3vw);
-
-}
-
-h2 {
-    font-family: 'Outfit', sans-serif;
-    font-weight: 200;
-    font-size: calc(5px + 3.3vw);
-    margin-top: 5%;
-}
-
-h1, h2 {
-    margin-right: 5%;
-}
-
-#headercontainer {
-    display: flex;
-    height: 60vh;
-    width: 90vw;
-    justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 140px;
-    overflow: hidden;
-
-}
-
-#leftcontainer {
-
-    width: 60%;
-    margin-top: 6%;
-
-}
-
-#rightcontainer {
-
-    width: 40%;
-
-
-}
-
-lottie-player {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    background: transparent;
-    width: 100%;
-    height: 100%;
-
-
-}
-
-#iconheader {
-    display: flex;
-    justify-content: space-between;
-    width: 90vw;
-    height: 20vh;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#icon {
-    padding: 1%;
-}
-
-hr {
-    background-color: #FF8000;
-    border-color: transparent;
-    width: 90vw;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-/* wide anim wide anim wide anim  */
-#wideanim {
-    margin-top: 10%;
-}
-
-
-
-
-
-/* quotation quotation quotation  */
-
-#containerquotation {
-    width: 90vw;
-
-
-    margin-top: 5%;
-
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-#containerleft {
-
-    height: 100%;
-    width: 40%;
-    display: flex;
-
-}
-
-#containerright {
-
-    height: 100%;
-    width: 40%;
-    display: flex;
-}
-
-#vlhr {
-    height: 70%;
-    width: 3px;
-    background-color: #FF8000;
-    border-color: transparent;
-
-}
-
-@media screen and (max-width:1520px) {
-    #vlhr {
-        height: 90%;
-    }
-
-}
-
-#quote {
-    font-family: 'Outfit', sans-serif;
-    font-weight: 300;
-    font-size: calc(15px + 0.5vw);
-    margin-left: 2%;
-}
-
-/* slider histoire de flo */
-
-
-/* slider 3 images slider 3 images slider 3 images slider 3 images */
-.slidercontainer {
-    width: 80vw;
-    height: auto;
-    margin-top: 8%;
-
-    margin-left: auto;
-    margin-right: auto;
-
-    position: relative;
-    display: flex;
-}
-
-.button {
-    position: absolute;
-    display: flex;
-    width: 90%;
-    height: 100%;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 1000;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-}
-
-.btnimg {
-    width: 100%;
-}
-
-.btnimg:hover {
-    transform: scale(110%);
-}
-
-.red {
-    width: 10%;
-    height: 10%;
-
-
-
-
-}
-
-.green {
-    width: 10%;
-    height: 10%;
-
-
-
-}
-
-.imgset {
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    width: 80%;
-
-}
-
-
-/* button button button  */
-
-#btnprojet {
-    width: 30vw;
-    height: 9vh;
-    background-color: #FF7D00;
-    margin: auto;
-    margin-top: 4%;
-    border-radius: 3vw;
-    display: flex;
-    align-items: center;
-}
-
-#projetbtn {
-    margin-left: auto;
-    margin-right: auto;
-
-    font-family: 'Outfit', sans-serif;
-    font-weight: 500;
-    font-size: calc(15px + 0.5vw);
-    text-decoration: none;
-    color: white;
-
-}
-
-#projetbtn:hover {
-    scale: 102%;
-}
-
-/* services cards services cards services cards */
-
-
-
-
-.container {
-    display: flex;
-    justify-content: center;
-    width: 90vw;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-    padding-top: 5%;
-}
-
-.card0 {
-    background: #FACF87;
-    width: 30%;
-    align-items: center;
-
-    margin: 2%;
-    border-radius: 4.5vw;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-
-}
-
-.card0:hover, .card1:hover {
-    scale: 102%;
-    color: white;
-    background-color: #F5800D;
-    transition: ease-in-out 0.2s;
-}
-
-.card1 {
-    background: #FFF2D2;
-    width: 30%;
-    align-items: center;
-
-    margin: 2%;
-    border-radius: 4.5vw;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-
-}
-
-h3 {
-    font-family: "Tangerine";
-    font-weight: 300;
-    text-align: center;
-    font-size: calc(10px + 3.5vw);
-    padding-left: 6%;
-    padding-right: 6%;
-    margin-top: 10%;
-
-}
-
-#services {
-    font-family: "outfit";
-    font-size: 1.5vw;
-
-    padding: 6%;
-
-
-}
-
-#price {
-    font-family: 'Outfit', sans-serif;
-    bottom: 2%;
-    position: absolute;
-    font-weight: 600;
-    font-size: 1.5vw;
-    margin-top: 10%;
-
-
-
-}
-
-
-/* timeline */
-
-/* form */
-
-#form {
-    width: 100%;
-    background-color: #FFDE92;
-    /* border: solid red; */
-    display: flex;
-
-    height: 30vh;
-
-
-}
-
-#formleft {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    margin-left: 10%;
-
-}
-
-#message {
-    width: 40vw;
-    height: 80%;
-    align-self: center;
-    border-radius: 5vh;
-
-    margin-left: 10%;
-    background-color: white;
-    /* border: solid red; */
-}
-
-#input {
-    width: 30vw;
-    height: 4vh;
-    border-radius: 2em;
-    background-color: white;
-}
-
-#endform {
-    width: 100%;
-}
-
-/* anoul section */
-#anoulcontainer {
-    display: flex;
-    align-items: center;
-    width: 70vw;
-    height: 90vh;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10%;
-}
-
-#anoulgif {
-    border-radius: 50%;
-    border: solid #FFDE92 20px;
-    width: 30vw;
-}
-
-#anoultext {
-    font-family: 'Outfit', sans-serif, medium;
-    font-weight: 300;
-    /* padding: 20%; */
-    font-size: 1.8vw;
-    margin-right: 5%;
-
-
-    width: 100%;
-
-
-}
-
-/* ratings */
-
-#containerrates {
-    display: flex;
-    gap: 10%;
-    width: 70vw;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-    border: solid #FFDE92 8px;
-    border-radius: 8vw;
-}
-
-#rates {
-    /* border: solid red; */
-    margin-top: 5%;
-    margin-bottom: 5%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 30vw;
-
-}
-
-#ratepic {
-    width: 10vw;
-    border-radius: 50%;
-
-
-}
-
-#ratestext {
-    font-family: 'Outfit', sans-serif, medium;
-    font-weight: 500;
-    /* padding: 20%; */
-    font-size: 1vw;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 5%;
-    width: 15vw;
-
-}
-
-#stars {
-    width: 10vw;
-    margin-top: 5%;
-}
-
-/* contact */
-#contactcontainer {
-    margin-top: 10%;
-    width: 100%;
-
-    /* border: solid red; */
-    /* background-color: #FACF87; */
-}
-
-#top {
-    display: flex;
-    /* border: solid red; */
-}
-
-#contactanim {
-    width: 50vh;
-    /* border: solid; */
-}
-
-#contacttitle {
-    font-family: "Tangerine";
-    font-weight: 300;
-    color: #F6721D;
-    /* border: solid; */
-    text-align: center;
-    font-size: calc(15px + 3.3vw);
-
-
-
-}
-
-/* footer */
-footer {
-    width: 100%;
-    height: 15vh;
-    background-color: #FFDE92;
-    bottom: 0;
-    display: flex;
-    justify-content: space-between;
-
-
-}
-
-#facebook {
-    height: 60%;
-    aspect-ratio: 1/1;
-
-}
-
-#cookie {
-    width: 30vw;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-evenly;
-}
-
-#logosocial {
-    width: 30vw;
-    height: auto;
-    /* border: solid red; */
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-#moncontact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 30vw;
-    height: 100%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    /* border: solid red; */
-
-}
-
-#moncontact a {
-    text-decoration: none;
-    font-family: 'Outfit', sans-serif, medium;
-    font-weight: 500;
-    padding: 1%;
-
-    font-size: 1vw;
-    color: black;
-
-}
-
-#footerlogo {
-    height: 40%;
-    margin-left: 10%;
-}
-
-#linkfooter {
-    margin-left: 10%;
-    white-space: nowrap;
-}
-
-#linkfooter a {
-    font-family: 'Outfit', sans-serif, medium;
-    font-size: 0.8vw;
-    padding-left: 1%;
-    text-decoration: none;
-    color: black;
-
-}
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <!--lottie-->
+        <script
+            src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!-- navbar navbar navbar -->
+        <nav>
+            <div id="leftside">
+
+                <a id="logotext" href="">étiquette illustrée</a>
+                <img id="logonav" src="/logonavbar.svg" alt="">
+            </div>
+            <div id="rightside">
+                <ul>
+                    <li><a id="navlink" href="#linkservice">services</a></li>
+                    <li><a id="navlink" href="#anoulcontainer">à propos</a></li>
+                    <li><a id="navlink" href="#contactcontainer">contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- header header header -->
+        <div id="headercontainer">
+            <div id="leftcontainer">
+                <h1>Ne laissez pas fermenter votre image.</h1>
+                <h2>Créez le packaging idéal pour augmenter vos ventes et
+                    fidéliser votre clientèle.</h2>
+            </div>
+            <div id="rightcontainer">
+                <lottie-player id="animheader" src="/animheader.json" loop
+                    autoplay></lottie-player>
+            </div>
+        </div>
+        <div id="iconheader">
+            <img id="icon" src="/ICON1.svg" alt="">
+            <img id="icon" src="/ICON2.svg" alt="">
+            <img id="icon" src="/ICON3.svg" alt="">
+        </div>
+        <hr>
+
+        <!-- wide anim wide anim wide anim -->
+        <lottie-player id="wideanim" src="/dessin_anime.json" loop autoplay></lottie-player>
+        <!-- quotation quotation quotation -->
+        <div id="containerquotation">
+            <div id="containerleft">
+                <hr id="vlhr">
+                <p id="quote">
+                    Se lancer dans la production de bière, c’est une aventure
+                    que chaque brasseur vit différemment. <br> <br>
+                    Vous exprimez votre savoir-faire du maltage au
+                    conditionnement pour obtenir un gout unique. <br> <br>
+                    Ce gout, c’est votre identité et votre histoire.
+                </p>
+            </div>
+            <div id="containerright">
+                <hr id="vlhr">
+                <p id="quote">
+                    En France il y’a plus de 10 000 référence de bière.
+
+                    Si vous ne travaillez pas votre image, vous risquez de
+                    disparaitre dans les étals... <br> <br>
+                    Mon objectif est de mettre en valeur cette identité et de
+                    créer un visuel qui vous démarquera de la concurrence pour
+                    que vos efforts soient récompensés !
+
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+
+
+        <!-- slider 3 images -->
+        <div class="slidercontainer">
+            <div class="button">
+                <div class="red">
+                    <img onclick="ChangeSlide(-1)" class="btnimg"
+                        src="/BTNLEFT.png" alt="">
+                </div>
+                <div class="green">
+                    <img onclick="ChangeSlide(1)" class="btnimg"
+                        src="/BTNRIGHT.png" alt="">
+                </div>
+            </div>
+            <img id="sliding" class="imgset" src="/beer3.png" alt="">
+        </div>
+
+        <!-- btn btn btn btn  -->
+        <div id="btnprojet">
+            <a id="projetbtn" href="">Découvrir d'autres projets</a>
+        </div>
+        <!-- services cards   services cards   services cards -->
+        <section class="container" id="linkservice">
+            <div class="card0">
+                <h3>logo</h3>
+                <p id="services">Création de plusieurs itérations jusqu’au choix
+                    final. <br><br>
+                    Format vectoriel pour impression
+                    sur tout support. <br><br>
+                    Prévisualisation sur supports dédiés. <br><br>
+                </p>
+                <p id="price">
+                    à partir de 250€ </p>
+            </div>
+            <div class="card1">
+                <h3>illustration</h3>
+                <p id="services"> Réalisation d’une illustration dédiée à votre
+                    bière. <br><br>
+                    Comprend la mise en page et l’intégration de vos recettes,
+                    <br>
+                    logo et mentions légales.
+                </p>
+                <p id="price">
+                    à partir de 500€ </p>
+
+            </div>
+            <div class="card0">
+                <h3>animation</h3>
+                <p id="services">Animation de logo,
+                    créations d’icones animées pour votre site. <br> <br>
+                    Réalisation d’animations publicitaires pour vos réseaux.</p>
+                <p id="price">
+                    à partir de 250€ </p>
+            </div>
+        </section>
+        <!-- btn btn btn btn  -->
+        <div id="btnprojet">
+            <a id="projetbtn" href="#formcolor">Demander une estimation</a>
+        </div>
+        <!-- timeline section -->
+
+
+        <!-- anoul section -->
+        <div id="anoulcontainer">
+            <p id="anoultext">
+
+                Illustrateur graphiste depuis 2015
+                je crée des visuels et animations pour les marques et la grande
+                distribution je suis, je suis ? <br>
+                Anoul!
+                Peintre à mes heures perdues et passioné de communication et de
+                tech.
+
+
+            </p>
+            <img id="anoulgif" src="/anoulgif.gif" alt="">
+        </div>
+        <!-- rating rating rating  -->
+        <div id="containerrates">
+            <div id="rates">
+                <img id="ratepic" src="/sylvain.png" alt="">
+                <p id="ratestext">
+                    Super content du travail réalisé, Anoul a su comprendre ce
+                    que je voulais tout en m'apportant ses conseils et sa
+                    créativité. Je recommande!
+                </p>
+                <img id="stars" src="/5starpng.png" alt="">
+            </div>
+            <div id="rates">
+                <img id="ratepic" src="/brice.png" alt="">
+                <p id="ratestext">
+                    J’ai fait appel à Anoul pour une affiche dans mon commerce
+                    mettant en valeur mes produits. La livraison à été rapide et
+                    conforme à mes attentes.
+                </p>
+                <img id="stars" src="/5starpng.png" alt="">
+            </div>
+            <div id="rates">
+                <img id="ratepic" src="/sarah.png" alt="">
+                <p id="ratestext">
+                    Anoul à su trouver la bonne direction pour notre projet.
+                    Nous avions seulement une idée vague de notre image et il a
+                    pu clarifier notre désir.Nos clients adorent nos visuels!
+                </p>
+                <img id="stars" src="/5starpng.png" alt="">
+            </div>
+
+
+
+        </div>
+
+        <!-- contact contact contact contact -->
+        <div id="contactcontainer">
+            <div id="top">
+                <lottie-player id="contactanim" src="/anim_form_contact.json"
+                    loop autoplay></lottie-player>
+
+
+            </div>
+            <div id="bottom">
+                <p id="contacttitle">Contact</p>
+            </div>
+            <div id="form">
+                <div id="formleft">
+                    <div id="input"></div>
+                    <div id="input"></div>
+                    <div id="input"></div>
+                    <div id="input"></div>
+                </div>
+                <div id="message"></div>
+            </div>
+
+
+
+        </div>
+        <!-- form formform form form  -->
+        <div id="formcolor">
+
+            <form id="my-form" action="/submit" method="post">
+                <div id="formcontainer">
+                    <div id="leftform">
+                        <input type="text" id="input-1" placeholder="Nom"
+                            required>
+                        <input type="email" id="input-2"
+                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                            title="Please enter a valid email address"
+                            placeholder="Email" required>
+                        <input type="text" id="input-3" placeholder="Société">
+                    </div>
+                    <textarea id="textarea" placeholder="Votre message"
+                        required></textarea>
+                </div>
+                <div id="btnform">
+                    <button type="submit" id="btnclick">Envoyer</button>
+                </div>
+                <div id="error-message" style="display: none;">Please fill out
+                    all of the fields</div>
+            </form>
+
+
+        </div>
+
+        <hr id="endform">
+
+
+        <!-- footer footer footerfooterfooter -->
+        <footer>
+            <div id="cookie">
+                <img id="footerlogo" src="/logonavbar.svg" alt="">
+                <div id="linkfooter">
+                    <a href="">POLITIQUE DE CONFIDENTIALITÉ & COOKIES
+                    </a>
+                    <a href="">MENTIONS LÉGALES </a>
+                    <a href="">CGV</a>
+                </div>
+            </div>
+            <div id="moncontact">
+                <a href="">contact@étiquette-illustrée.fr</a>
+                <a href="">06.21.55.77.59</a>
+                <a href="">© 2022 — ETIQUETTE ILLUSTREE™</a>
+            </div>
+            <div id="logosocial">
+                <img src="/facebook.png" alt="" id="facebook">
+                <img src="/LINKEDIN.png" alt="" id="facebook">
+                <img src="/instagram.png" alt="" id="facebook">
+            </div>
+
+        </footer>
+
+
+        <script src="/script.js"></script>
+    </body>
+
+</html>
