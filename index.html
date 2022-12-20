@@ -137,7 +137,7 @@
         </section>
         <!-- btn btn btn btn  -->
         <div id="btnprojet">
-            <a id="projetbtn" href="">Demander une estimation</a>
+            <a id="projetbtn" href="#formcolor">Demander une estimation</a>
         </div>
         <!-- timeline section -->
 
@@ -211,12 +211,38 @@
                 </div>
                 <div id="message"></div>
             </div>
-            <hr id="endform">
+
 
 
         </div>
         <!-- form formform form form  -->
+        <div id="formcolor">
 
+            <form id="my-form" action="/submit" method="post">
+                <div id="formcontainer">
+                    <div id="leftform">
+                        <input type="text" id="input-1" placeholder="Nom"
+                            required>
+                        <input type="email" id="input-2"
+                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                            title="Please enter a valid email address"
+                            placeholder="Email" required>
+                        <input type="text" id="input-3" placeholder="Société">
+                    </div>
+                    <textarea id="textarea" placeholder="Votre message"
+                        required></textarea>
+                </div>
+                <div id="btnform">
+                    <button type="submit" id="btnclick">Envoyer</button>
+                </div>
+                <div id="error-message" style="display: none;">Please fill out
+                    all of the fields</div>
+            </form>
+
+
+        </div>
+
+        <hr id="endform">
 
 
         <!-- footer footer footerfooterfooter -->
