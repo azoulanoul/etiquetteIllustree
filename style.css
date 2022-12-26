@@ -961,7 +961,24 @@ textarea::placeholder {
     background-color: olivedrab;
 
 }
+@media screen and (max-width:600px) {
+    #formcontainer{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        width: 100vw;
+        height: 40vh;
+    }
 
+    textarea{
+        margin: auto;
+        margin-top: 5%;
+        width: 80vw;
+    }
+    
+}
 
 
 /* anoul section */
@@ -1026,6 +1043,7 @@ textarea::placeholder {
     }
 
 }
+
 
 /* ratings */
 
