@@ -308,6 +308,37 @@ li {
     }
 }
 
+@media  screen and  (max-width: 600px) {
+    #logonav{
+        width: 10%;
+        margin-left: 10px;
+    }
+    
+
+    p{
+        font-size: 40px;
+    
+
+    }
+
+    #leftside {
+        display: flex;
+        align-items: center;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-right: auto;
+        margin-left: 5%;
+    }
+
+    #rightside {
+        display: none;
+
+
+
+    }
+    
+}
+
 /* header header header */
 
 /* fonts fonts fonts */
@@ -389,12 +420,49 @@ hr {
 
 }
 
+@media  screen and  (max-width: 600px){
+    #leftcontainer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        top: 0;
+        left: 0;
+        
+
+    }
+    #rightcontainer{
+        margin: auto;
+        height: fit-content;
+      
+    }
+    #iconheader{
+        margin-bottom: 0;
+        margin-top: 5%;
+        height: 100%;
+    }
+    hr{
+        margin-top: 2%;
+    }
+    #headercontainer{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 100%;
+        margin-top: 0;
+        margin-top: 11vh;
+
+    }
+    #animheader{
+        margin-top: 0;
+    }
+    #icon{
+        width: 20%;
+    }
+}
+
 /* wide anim wide anim wide anim  */
 #wideanim {
     margin-top: 10%;
 }
-
-
 
 
 
@@ -453,6 +521,7 @@ hr {
 
 
 /* slider 3 images slider 3 images slider 3 images slider 3 images */
+
 .slidercontainer {
     width: 80vw;
     height: auto;
@@ -519,7 +588,33 @@ hr {
     width: 80%;
 
 }
-
+@media screen and (max-width:600px){
+    .slidercontainer{
+        width: 100vw;
+        height: 100%;
+        margin: 0;
+        margin-top: 10%;
+        padding: 0;
+    }
+    .imgset{
+        width: 100vw;
+    }
+    .button {
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 1000;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+    }
+}
 
 /* button button button  */
 
@@ -548,6 +643,27 @@ hr {
 
 #projetbtn:hover {
     scale: 102%;
+}
+@media screen and (max-width:600px){
+    #btnprojet{
+        width: 55vw;
+        height: 5vh;
+        background-color: #FF7D00;
+        
+    }
+    #projetbtn {
+        margin-left: auto;
+        margin-right: auto;
+    
+        font-family: 'Outfit', sans-serif;
+        font-weight: 500;
+        font-size: calc(15px + 0.5vw);
+        text-decoration: none;
+        color: white;
+        white-space: nowrap;
+    
+    }
+
 }
 
 /* services cards services cards services cards */
@@ -631,6 +747,40 @@ h3 {
 
 
 
+}
+@media screen and (max-width:600px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        border: solid red;
+        align-items: center;
+    }
+    .card0 {
+        background: #FACF87;
+        width: 80%;
+        align-items: center;
+    
+        margin: 2%;
+        border-radius: 4.5vw;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    
+    }
+    .card1 {
+        background: #FFF2D2;
+        width: 80%;
+        align-items: center;
+    
+        margin: 2%;
+        border-radius: 4.5vw;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    
+    }
 }
 
 
