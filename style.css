@@ -1045,10 +1045,11 @@ textarea::placeholder {
         align-items: center;
         justify-content: space-evenly;
         width: 100vw;
-        height: auto;
+        height: 50vh;
         margin-left: auto;
         margin-right: auto;
         margin-top: 10%;
+        overflow-y: hidden;
         
     }
     #anoulgif {
