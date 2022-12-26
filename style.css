@@ -1045,19 +1045,22 @@ textarea::placeholder {
         align-items: center;
         justify-content: space-evenly;
         width: 100vw;
-        height: 50vh;
+        height: auto;
         margin-left: auto;
         margin-right: auto;
         margin-top: 10%;
-        overflow-y: hidden;
-        
+      
+       
     }
-    #anoulgif {
+    #anoulgif{
         border-radius: 50%;
-        border: solid #FFDE92 10px;
-        width: 60vw;
-        margin-top: 10%;
+        border: solid #FFDE92 20px;
+        width: 70%;
+        height: 70%;
+
     }
+
+  
     #anoultext {
         font-family: 'Outfit', sans-serif, medium;
         font-weight: 300;
