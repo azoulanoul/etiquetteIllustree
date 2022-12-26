@@ -993,6 +993,39 @@ textarea::placeholder {
 
 
 }
+@media screen and (max-width: 600px){
+    #anoulcontainer {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100vw;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+        
+    }
+    #anoulgif {
+        border-radius: 50%;
+        border: solid #FFDE92 10px;
+        width: 60vw;
+        margin-top: 10%;
+    }
+    #anoultext {
+        font-family: 'Outfit', sans-serif, medium;
+        font-weight: 300;
+         padding: 20%; 
+        font-size: 3.8vw;
+        text-align: center;
+       
+    
+        
+    
+    
+    }
+
+}
 
 /* ratings */
 
@@ -1041,6 +1074,23 @@ textarea::placeholder {
 #stars {
     width: 10vw;
     margin-top: 5%;
+}
+@media screen and (max-width: 600px){
+    #containerrates {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10%;
+        width: 70vw;
+        height: 100vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0%;
+        border: solid #FFDE92 8px;
+        border-radius: 8vw;
+    }
+
 }
 
 /* contact */
