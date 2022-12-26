@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
-    overflow-y: hidden;
+    
 }
 
 /* local font */
@@ -762,12 +762,12 @@ h3 {
         flex-direction: column;
         margin-left: auto;
         margin-right: auto;
-        border: solid red;
         align-items: center;
     }
     .card0 {
         background: #FACF87;
         width: 80%;
+        height: 50vh;
         align-items: center;
     
         margin: 2%;
@@ -780,6 +780,7 @@ h3 {
     .card1 {
         background: #FFF2D2;
         width: 80%;
+        height: 50vh;
         align-items: center;
     
         margin: 2%;
@@ -787,6 +788,41 @@ h3 {
         display: flex;
         flex-direction: column;
         position: relative;
+    
+    }
+    h3 {
+        font-family: "Tangerine";
+        font-weight: 300;
+        text-align: center;
+        font-size: calc(10px + 5.5vw);
+        padding-left: 6%;
+        padding-right: 6%;
+        margin-top: 10%;
+    
+    }
+    
+    #services {
+        font-family: "outfit";
+        font-size: 5.5vw;
+    
+        padding: 6%;
+        margin-bottom: 10%;
+        text-align: center;
+    
+    
+    }
+    
+    #price {
+        font-family: 'Outfit', sans-serif;
+        bottom: 2%;
+        margin-bottom: 10%;
+    
+        position: absolute;
+        font-weight: 600;
+        font-size: 4.5vw;
+        margin-top: 10%;
+    
+    
     
     }
 }
