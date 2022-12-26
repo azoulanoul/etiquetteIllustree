@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
-    overflow-y:hidden;
+    overflow-y: hidden;
 }
 
 /* local font */
@@ -608,12 +608,19 @@ hr {
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        z-index: 1000;
+        z-index: 9000;
         top: 0;
         left: 0;
         right: 0;
         bottom: 0;
         margin: auto;
+    }
+    .btnimg:hover {
+        transform: scale(110%);
+    }
+    
+    .btnimg:active {
+        transform: scale(120%);
     }
 }
 
