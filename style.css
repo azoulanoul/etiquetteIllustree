@@ -968,6 +968,7 @@ textarea::placeholder {
         margin-left: auto;
         margin-right: auto;
         align-items: center;
+        margin-bottom: O;
         width: 100vw;
         height: 40vh;
     }
@@ -976,6 +977,33 @@ textarea::placeholder {
         margin: auto;
         margin-top: 5%;
         width: 80vw;
+    }
+    #leftform {
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        /* border: solid saddlebrown; */
+    }
+    #btnclick {
+        align-self: flex-end;
+        margin-right: 4vw;
+        width: 20vw;
+        height: 3vh;
+        background-color: orange;
+        border: none;
+        border-radius: 2vh;
+        color: white;
+        font-size: 3vw;
+        margin-bottom: 2%;
+        margin-top: 2%;
+    
+    
+    }
+    #endform {
+        width: 100vw;
+        height: 0.5vh;
+        margin-top: 0;
+    
     }
     
 }
@@ -1217,5 +1245,32 @@ footer {
     padding-left: 1%;
     text-decoration: none;
     color: black;
+
+}
+@media screen and (max-width: 600px){
+    #facebook {
+        height: 30%;
+        aspect-ratio: 1/1;
+        padding: 2%;
+    
+    }
+    #logosocial {
+        width: 30vw;
+        height: auto;
+        /* border: solid red; */
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    footer {
+    width: 100vw;
+    height: 15vh;
+    background-color: #FFDE92;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+
+
+}
 
 }
